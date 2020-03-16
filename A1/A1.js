@@ -1,10 +1,3 @@
-//
-// Author: Daniel B. Martinez
-// Email: marti931@cougars.csusm.edu
-// Course: CS351
-// Prof: C. Jardin
-// Assignment 1: Music Box - A1.js
-// Note!!!: This is my first time using javasctipt, html, and css
 
 function getInfo()
 {
