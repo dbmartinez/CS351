@@ -1,0 +1,26 @@
+
+body
+{
+  background-color: black;
+  background-position: center;
+  background-image: url("A1 Photo.jpg");
+  background-attachment: scroll;
+}
+
+h1
+{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: times new roman;
+  font-size: 60px;
+}
+
+p
+{
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-style: italic;
+  font-size: 20px;
+}
