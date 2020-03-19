@@ -10,7 +10,7 @@ exports.handler = async(event, context, callback) => {
         body4: JSON.stringify(event.key1 + event.key2 + event.key3)
         };
         return response;
-        } 
+    } 
     catch(e) 
     { 
         console.log("Error", e);
