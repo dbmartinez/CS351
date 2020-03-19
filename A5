@@ -1,0 +1,18 @@
+exports.handler = async(event, context, callback) => {
+    //TODO implement
+    try 
+    {
+        const response = {
+        statusCode: 200,
+        body1: JSON.stringify("Key 1 value is: " + event.key1),
+        body2: JSON.stringify("Key 2 value is: " + event.key2),
+        body3: JSON.stringify("Key 3 value is: " + event.key3),
+        body4: JSON.stringify(event.key1 + event.key2 + event.key3)
+        };
+        return response;
+        } 
+    catch(e) 
+    { 
+        console.log("Error", e);
+    }
+};
